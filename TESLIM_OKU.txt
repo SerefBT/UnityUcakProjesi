@@ -1,0 +1,23 @@
+DAVUT UCAK PROJE - ILK SORTIE
+
+Unity Hub ile bu proje klasorunu ac.
+Assets/Scenes/Rota04.unity sahnesini ac, Play'e bas.
+SORTIE'YE BASLA dugmesiyle gorevi baslat.
+
+YERDE: W gaz artirir, S azaltir; 26 m/s'de otomatik kalkis.
+HAVADA: W yukselis, S alcalis. A/D sola/saga donus.
+3 ana hedefin uzerinden gec, sonra us isaretine don.
+Usse inmek gerekmez; yukaridan gecmek yeterlidir.
+2 yan hedef istege bagli ek puandir. Hasarsiz donus bonusu vardir.
+H tusu 10 canlik hasar denemesidir, hasarsiz bonusunu etkiler.
+Sure 150 saniye. Yakit ucusta azalir, uste dolar.
+Kayipta otomatik yeniden baslar, basarida YENI SORTIE dugmesi vardir.
+
+TESLIM DOSYALARI
+Assets, Packages, ProjectSettings ve BlenderSource klasorlerini koru.
+Belgeler klasorunde arayuz gorsellerinin uretim kayitlari var.
+Docs klasorunde her haftanin aciklamasi var.
+Library, Temp, Logs ve obj uretilen klasorlerdir; teslim icin gerekli degildir.
+
+Unity surumu: 6000.0.31f1. Surum yukseltilmemistir.
+Onceki haftalar Hangar01, Rota02 ve Rota03 sahnelerinde saklidir.

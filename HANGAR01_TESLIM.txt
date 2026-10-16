@@ -1,0 +1,33 @@
+HANGAR 01 - DavutUcakProje
+
+Ana sahne: Assets/Scenes/Hangar01.unity
+Model: Assets/Models/Nu_D36.fbx
+Blender kaynak: BlenderSource/Nu_D36.blend
+Tarayici icin model: BlenderSource/Nu_D36.glb
+Pervane betigi: Assets/Scripts/PervaneDondur.cs
+Kamera onizlemesi: Hangar01Preview.png
+
+Sahne Edit modunda kayitlidir. Ucak, zemin, 1 metrelik olcek kupu,
+isik ve kamera sahnenin icindedir; Play baslatmak sahneyi gormek icin gerekli degildir.
+Play modunda sadece pervane doner. Ucagin ileri hareketi bonus oldugu icin eklenmedi.
+
+Modelde iki acik kokpit, farkli aciklikta iki kanat, kanat ve kabin dikmeleri,
+inis takimi, kuyruk kizagi, kuyruk yuzeyleri ve dokuz silindirli motor vardir.
+Govde birlesik Nu_D36 meshidir. Pervane ayri mesh ve merkez pivotludur.
+Unity'de burun ve pervane ekseni +Z, yukari +Y'dir.
+Olculen sinirlar: 9.74 x 2.44 x 7.24 metre; zemine temas minY=0.
+FBX: selected mesh, FBX All, -Z Forward, Y Up, Apply Transform.
+Unity: Scale Factor=1, Convert Units acik; malzemeler Assets/Materials altindadir.
+
+DOGRULAMA
+Unity Editor betikleri derledi ve sahneyi kaydetti.
+Kameradan 1280x720 onizleme alindi ve kontrol edildi.
+Play modunda pervanenin rotasyonunun degistigi otomatik olculdu.
+Istege bagli tekrar kontrol: Hangar01 > Sahneyi ve Pervaneyi Kontrol Et.
+
+SURUM NOTU
+Mevcut proje Unity 6000.0.31f1 (6.0) ile acikti; bu surum korundu.
+Foy Unity 6.3 LTS istiyor. Bilgisayardaki 6000.6.3f1, 6.3 LTS degildir.
+Blender kaynak dosyasi kurulu Blender 5.2.2 LTS ile olusturuldu.
+Unity Hub oturumu, lisans ve kullanicinin elle kisayol denemesi bu teslimin
+otomatik yapildigi iddia edilen kisimlari degildir.
